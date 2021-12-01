@@ -1,0 +1,77 @@
+#main {
+     background-color:#f8f8ec;
+}
+
+.container {
+     display: grid;
+}
+
+h1 {
+    font-size: 50px;
+     grid-row: 1;
+     justify-self: center;
+     padding: 5px;
+}
+
+h2 { 
+     font-size: 30px;
+     padding-left: 30px;
+}
+
+h3 {
+     font-size: 15px;
+}
+
+p {
+     font-size: 15px;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: justify;
+     padding: 20px;
+     text-indent: 20px;
+}
+
+
+#img-div {
+     max-width: 100%;
+     height: auto;
+     padding: 50px;
+     grid-row: 4;
+}
+
+#subheading {
+     justify-self: center;
+     grid-row: 2;
+}
+
+#tribute-info {
+     grid-row: 3;
+     justify-self: center;
+}
+
+/*young queen*/
+
+
+
+#image2 {
+     height: 300px;
+     float:left;
+     margin: 5px;
+}
+
+     
+     /*Teen years*/
+
+ #image3 {
+     height: 300px;
+     margin: 5px;
+     float: right;
+     }
+     
+@media (max-height: 800px) {
+      #image2 #image3 { 
+          max-width: 400px;
+          max-height: 300px;
+          display: flex;
+          margin: 0px; }
+          }
