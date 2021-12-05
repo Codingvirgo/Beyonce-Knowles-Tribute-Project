@@ -22,9 +22,7 @@ main {
 
 .header {
      display: block;
-     height: 70vh;
-     background-image: url(img-folder/clearyonce.png);
-     background-size: cover;
+     height: 80vh;
      position: relative;
      animation: moveInRight 2s ease-in;
 }
@@ -32,6 +30,7 @@ main {
 
 h1 {
      color: #000000fd;
+     animation: moveInLeft 2s ease-in;
 }
 
 h3 {
@@ -122,5 +121,24 @@ p {
           transform: translateX(0);
     }
 }
+
+@keyframes moveInLeft {
+     0% {
+      opacity: 0%;
+      transform: translateX(100px);
+     } 
+ 
+     80%  {
+          transform: translateX(-15px);
+     }
+ 
+     
+     100% {
+           opacity: 100%;
+           transform: translateX(0);
+     }
+ }
+ 
+ 
 
 
