@@ -24,9 +24,9 @@ main {
      display: block;
      height: 80vh;
      position: relative;
-     animation: moveInRight 2s ease-in;
-}
+     animation: moveInRight 2s ease-out;
 
+}
 
 h1 {
      color: #000000fd;
@@ -44,7 +44,7 @@ h3 {
      display: block;
      position: absolute;
      text-align: right;
-     top: 40%;
+     top: 60%;
      left: 50%;
      transform: translateX(-50%);
      line-height: 50px;
@@ -81,9 +81,11 @@ h3 {
 }
 
 .btn:hover {
-     scale: 1.2;
+     scale: 0.9;
      font-weight: 400;
+    
 }
+
 
 p { 
      text-align: justify;
@@ -96,6 +98,7 @@ p {
      float: right;
      padding: 20px;
      margin: 10px;
+     border-radius: 30px;
 }
 
 #teen-years-img {
@@ -103,6 +106,8 @@ p {
      float: left;
      padding: 20px;
      margin: 10px;
+     border-radius: 30px;
+
 }
 
 @keyframes moveInRight {
@@ -129,7 +134,8 @@ p {
      } 
  
      80%  {
-          transform: translateX(-15px);
+          opacity: 50%;
+          transform: translateX(-10px);
      }
  
      
