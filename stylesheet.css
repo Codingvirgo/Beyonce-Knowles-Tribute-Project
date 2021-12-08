@@ -22,7 +22,7 @@ main {
 
 .header {
      display: block;
-     height: 100vh;
+     height: 85vh;
      position: relative;
      animation: moveInRight 2s ease-out;
      transform: translateX(-15px);
