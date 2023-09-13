@@ -106,6 +106,12 @@ p {
      margin: 10px;
 }
 
+ul {
+     display: block;
+     text-align: justify;
+     padding-left: 30px;
+
+}
 
 #young-queen-img {
      height: 30vh;
