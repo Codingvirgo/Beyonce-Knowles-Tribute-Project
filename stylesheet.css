@@ -24,13 +24,13 @@ main {
      display: block;
      height: 85vh;
      position: relative;
-     animation: moveInRight 2s ease-out;
+     animation: moveInRight 3s ease-out;
      transform: translateX(-15px);
 }
 
 h1 {
      color: #000000fd;
-     animation: moveInLeft 2s ease-in;
+     animation: moveInLeft 3s ease-in;
 }
 
 /* ADD WHEN BOX SHADOW COMES OUT RIGHT
